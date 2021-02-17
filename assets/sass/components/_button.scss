@@ -1,0 +1,22 @@
+.btn-color {
+    @include boton;
+    @include sombra;
+    @include sobre;
+    transition-delay: 2s;
+    transition: 2s ease;
+    text-align: left;
+}
+
+.btn-contacto {
+    padding: .35rem 2rem;
+    background-color: $oscuromedio;
+    border: 0;
+    color: $white;
+    @include sombra;
+    @include sobre;
+
+    a {
+        color: $white;
+        background-color: $oscuro;
+    }
+}

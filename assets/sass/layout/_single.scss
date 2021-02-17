@@ -1,0 +1,9 @@
+.single {
+    @include pagina;
+    
+}
+
+.single__sombra {
+    @include sombra;
+    margin: 0 auto;
+}

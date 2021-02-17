@@ -1,0 +1,28 @@
+footer {
+    padding: 3rem;
+    font-size: $small;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    background-color: $oscuromedio;
+    color: $white;
+    
+}
+
+.footer__texto {
+    grid-row: 2;
+}
+.footer__iconos {
+    grid-row: 1;
+    margin-bottom: .5rem;
+    a {
+        text-decoration: none;
+        color: $white;
+        padding: 0 .6rem;
+
+        :hover {
+            color: $claro;
+        }
+    }  
+}

@@ -1,0 +1,18 @@
+.paginacion {
+    margin-top: 2rem;
+}
+
+.paginacion a  {
+    background-color: #fff;
+    color: #535c68;
+}
+.paginacion a:hover {
+    background-color: #cae8d5;
+    border-color: #3b6978;
+    color: #535c68;
+}
+
+.page-item.active .page-link {
+    background-color: #3b6978;
+    border-color: #3b6978;
+}

@@ -1,0 +1,51 @@
+.bg-color {
+    font-family: $roboto;
+    background-color: $oscuromedio !important;
+    color: $white;
+    background-color: transparent;
+    transition: all .7s ease;
+    path {
+        fill: $white !important;
+    }
+}
+
+.bg-light {
+    font-family: $roboto;
+    background-color: transparent !important;
+    transition: all .7s ease;
+}
+
+.navbar__logo {
+    justify-content: center;
+    img {
+        height: 45px;
+    }
+}
+
+.navbar-nav {
+    a {
+        text-decoration: none;
+        line-height: 10px;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    
+    a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {    
+        a:hover, a:focus {
+        background-size: 0% 2px;
+    }}
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 100% 2px;
+}

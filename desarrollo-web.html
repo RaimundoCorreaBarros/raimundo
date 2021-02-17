@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/a6f2566b0b.js" crossorigin="anonymous"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Raimundo Correa</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand navbar__logo" href="index.html"><img src="assets/images/svg/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-item nav-link" href="index.html">Inicio</a>
+                  <a class="nav-item nav-link active" href="">Desarrollo Web</a>
+                  <a class="nav-item nav-link" href="sonido.html">Sonido</a>
+                  <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header__web">
+    </header>
+
+    <section class="desarrolloweb container">
+      <div class="container">
+
+        <div class="desarrolloweb__texto">
+          <h2>Proyectos desarrollados</h2>
+          <p>A principios del 2000 aprendi a crear paginas web de manera autodidacta, sin entender el por que hacias las cosas de una forma u otra, pero a medida que pasaban los años fui dejando esto de lado y me dedique en pleno a mi carrera de sonidista.</p>
+          <p>El año 2019 es cuando finalmente me decidi y comenze a estudiar desarrollador web. Mi constante gusto por aprender cosas nuevas me llevaron de manera exitosa a terminar este desafio (volver a estudiar) y así buscar nuevas oportunidades laborales.</p>
+        </div>
+
+        <!-- Cards-->
+        <div class="ancho">
+
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <div class="card mb-5 desarrolloweb__sombra" >
+                <img src="assets/images/jantte.png" class="card-img-top" alt="Rojo TVN">
+                <div class="card-body desarrolloweb__cards">
+                  <h5 class="card-title">Jantte</h5>
+                  <p class="card-text">Pagina responsiva desarrollada en HTML con integración de bootstrap y formulario de contacto con validación SMTP.</p>                  
+                </div>
+                <div class="card-footer">
+                  <a href="http://jantte.com/" target="_blank" class="btn btn-color">Ver Sitio</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card mb-5 desarrolloweb__sombra" >
+                <img src="assets/images/tienda-xda.png" class="card-img-top" alt="Rojo TVN">
+                <div class="card-body desarrolloweb__cards">
+                  <h5 class="card-title">Tienda XDA</h5>
+                  <p class="card-text">Pagina responsiva desarrollada en HTML.</p>                  
+                </div>
+                <div class="card-footer">
+                  <a href="https://raimundocorreabarros.github.io/tiendaxda/index.html" target="_blank" class="btn btn-color">Ver Sitio</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card mb-5 desarrolloweb__sombra" >
+                <img src="assets/images/bicicletas.png" class="card-img-top" alt="Rojo TVN">
+                <div class="card-body desarrolloweb__cards">
+                  <h5 class="card-title">Blog de bicicletas</h5>
+                  <p class="card-text">Pagina desarrollada en HTML llevada a Wordpress.</p>                  
+                </div>
+                <div class="card-footer">
+                  <a href="http://g15e1.desafiolab.com/bicicletas" target="_blank" class="btn btn-color">Ver Sitio</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card mb-5 desarrolloweb__sombra" >
+                <img src="assets/images/peluqueria.png" class="card-img-top" alt="Rojo TVN">
+                <div class="card-body desarrolloweb__cards">
+                  <h5 class="card-title">Peluqueria</h5>
+                  <p class="card-text">Pagina desarrollada en HTML llevada a Wordpress..</p>                  
+                </div>
+                <div class="card-footer">
+                  <a href="http://g15e1.desafiolab.com/peluqueria" target="_blank" class="btn btn-color">Ver Sitio</a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="paginacion">
+			<?php the_pagination( $get_arg ); ?>
+		</div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_texto">
+            <small>© 2020 Raimundo Correa</small>
+        </div>
+        <div class="footer__iconos">
+            <a href="https://www.linkedin.com/in/raimundo-correa-76566660/" target="_blank" ><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/RaimundoCorreaBarros" target="_blank" ><i class="fab fa-github-square fa-2x"></i></a>
+        </div>   
+    </footer>
+    
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- scroll -->
+    <script src="assets/js/scroll.js"></script>
+
+    <!-- Navbar -->
+    <script src="assets/js/navbar.js"></script>
+
+</body>
+</html>

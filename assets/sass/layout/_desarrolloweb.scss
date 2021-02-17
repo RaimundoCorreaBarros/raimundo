@@ -1,0 +1,29 @@
+.desarrolloweb {
+    @include pagina;
+    text-align: left;
+
+}
+
+.desarrolloweb__texto {
+    padding-bottom: 4rem;
+    h2 {
+        padding-bottom: 3rem;
+    }
+}
+
+.desarrolloweb__sombra {
+    @include sombra;
+    img {
+        height: 190px; 
+    }    
+}
+
+.desarrolloweb__cards {
+    text-align: -moz-center;
+    p, h5, {
+        text-align: left
+    }
+}
+
+
+

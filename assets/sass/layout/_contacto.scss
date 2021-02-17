@@ -1,0 +1,26 @@
+.contacto {
+    @include pagina;
+    width: 65%;
+
+    @media (max-width: 768px) {
+        width: 80%;
+    }
+
+    h2 {
+        padding-bottom: 3rem;
+    }
+
+}
+
+.contacto__texto {
+    padding-bottom: 4rem;
+}
+
+input, textarea {
+    border: 2px solid $oscuromedio;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+}

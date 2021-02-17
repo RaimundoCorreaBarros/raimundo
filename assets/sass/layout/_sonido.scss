@@ -1,0 +1,39 @@
+.sonido {
+    @include pagina;
+    text-align: left;
+}
+
+.sonido__texto {
+    padding-bottom: 4rem;
+    h2 {
+        padding-bottom: 3rem;
+    }
+}
+
+.sonido__centrado {
+    margin: 0 auto;
+}
+
+.sonido__sombra {   
+    @include sombra;
+    img {
+        height: 190px;
+    }
+}
+
+.sonido__cards {
+    text-align: -moz-center;
+    p, h5, {
+        text-align: left
+    }
+}
+
+.card-footer {
+    background-color: $white !important;
+    border: 0 !important;
+}
+
+.ancho {
+    margin: 0 auto;
+    max-width: 60%;
+}

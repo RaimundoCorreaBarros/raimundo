@@ -1,0 +1,28 @@
+.section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10rem 0;
+    background-color: $gris;
+    h2 {
+        padding-bottom: 6rem;
+    }
+}
+
+.section__img {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: $gris;
+    img {
+        height: 133px;
+        width: 151px;
+        margin: auto;
+    }
+}
+
+.card {
+    border: 0;
+}
+
+.servicios__sombra {
+    @include sombra;
+}

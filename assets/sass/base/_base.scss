@@ -1,0 +1,34 @@
+body {
+    color: $mangogris;
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $regular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $oscuro;
+    font-family: $roboto;
+    font-weight: $bold;
+}
+
+
+@keyframes foto {
+    0% { opacity: 0; }
+    30% { opacity: .2;}
+    60% { opacity: .5;}
+    100% { opacity: 1; }
+}
+
+@keyframes cv {
+    0% { width: 228px; height: 53px;}
+    50% { width: 240px; height: 58px;}
+    100% { width: 228px; height: 53px;}
+}
+
+
+
+@media (min-width: 992px) {
+    .card-texto {
+        padding-left: 3rem;
+    }
+}

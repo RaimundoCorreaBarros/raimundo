@@ -1,0 +1,30 @@
+// Vendors
+
+@import 'vendors/normalize.scss';
+@import 'vendors/bootstrap-4.4.1/scss/bootstrap.scss';
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixing';
+
+// Base
+@import 'base/reset';
+@import 'base/tipography';
+@import 'base/base';
+
+// Components
+@import 'components/button';
+@import 'components/paginacion';
+
+// Layout
+@import 'layout/header';
+@import 'layout/navbar';
+@import 'layout/main';
+@import 'layout/section';
+@import 'layout/proyectos';
+@import 'layout/footer';
+@import 'layout/contacto';
+@import 'layout/desarrolloweb';
+@import 'layout/sonido';
+@import 'layout/404';
+@import 'layout/single';
